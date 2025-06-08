@@ -71,7 +71,7 @@ const StyledGameCard = styled(NavLink)<{$small: boolean, $background: string}>`
 
   position: relative;
   transform: scale(1);
-  background: ${(props) => props.$background};
+  background: linear-gradient(-45deg,rgb(36, 22, 13),rgb(37, 11, 21),rgb(10, 18, 39),rgb(22, 6, 24),rgb(37, 9, 20));
   max-height: 100%;
   overflow: hidden;
   display: flex;
