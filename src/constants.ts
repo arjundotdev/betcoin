@@ -2,27 +2,27 @@ import { PublicKey } from '@solana/web3.js'
 import { FAKE_TOKEN_MINT, PoolToken, TokenMeta, makeHeliusTokenFetcher } from 'gamba-react-ui-v2'
 
 // Get RPC from the .env file or default to the public RPC.
-export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? 'https://api.mainnet-beta.solana.com'
+export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT
 
 // Solana address that will receive fees when somebody plays on this platform
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  'V2grJiwjs25iJYqumbHyKo5MTK7SFqZSdmoRaj8QWb9',
+  'BAXdRCZCgAhLrufbbd23Bx5DTKKoXdDBo1wzCaU6dajj',
 )
 
 // Gamba explorer URL - Appears in RecentPlays
 export const EXPLORER_URL = 'https://explorer.gamba.so'
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
+export const PLATFORM_SHARABLE_URL = 'play.betcoin.lol'
 
 // Creator fee (in %)
-export const PLATFORM_CREATOR_FEE = 0.01 // 1% !!max 5%!!
+export const PLATFORM_CREATOR_FEE = 0.02 // 2% !!max 5%!!
 
 // Jackpot fee (in %)
 export const PLATFORM_JACKPOT_FEE = 0.001 // 0.1%
 
 // Referral fee (in %)
-export const PLATFORM_REFERRAL_FEE = 0.0025 // 0.25%
+export const PLATFORM_REFERRAL_FEE = 0.005 // 0.5%
 
 /** If the user should be able to revoke an invite after they've accepted an invite */
 export const PLATFORM_ALLOW_REFERRER_REMOVAL = true
