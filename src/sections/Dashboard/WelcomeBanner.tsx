@@ -124,13 +124,13 @@ export function WelcomeBanner() {
         <button onClick={copyInvite}>
           💸 Copy Referral Link
         </button>
-        <button onClick={() => window.open('https://x.com/i/communities/1931513930041700851', '_blank')}>
+        <button onClick={() => window.open('', '_blank')}>
           💬 Community
         </button>
         <button onClick={() => window.open('https://x.com/betcoin_sol', '_blank')}>
           𝕏 Official Page
         </button>
-        <button onClick={() => window.open('https://pump.fun', '_blank')}>
+        <button onClick={() => window.open('', '_blank')}>
           🚀 Buy Now
         </button>
       </Buttons>
